@@ -1,0 +1,60 @@
+body {
+    background-color:#ccc; 
+    margin:0;
+    font-family: sans-serif;
+    padding:5px;
+}
+h1,h2{
+    color:white;
+    padding:1rem;
+}
+h1{
+    background-color:dodgerblue;
+    text-align:center;
+}
+h2{
+    background-color:tomato;
+}
+.colors{ 
+    list-style:none;
+    padding:0;
+}
+.colors li{
+    background-color:grey;
+    margin-bottom:0.5rem;
+    padding:0.5rem;
+    border-radius: 5px;
+}
+.tomato, .dodgeblue{
+    display:inline-block;
+    height:2.5rem;
+    width:2.5rem;
+}
+.tomato{
+    background-color:tomato;
+}
+.dodgeblue{
+    background-color:dodgerblue;
+}
+.names{
+    list-style:none;
+    font-weight: bold;
+    padding:0; 
+}
+.avatar{
+    border-radius: 50%;
+    width:5rem;
+    height:5rem;
+    object-fit: cover;
+    display:block;
+    padding-top:1rem;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.bottomborder{
+    border-bottom:1px solid tomato;
+}
